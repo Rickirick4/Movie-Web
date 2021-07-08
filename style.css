@@ -1,0 +1,75 @@
+input.placeholder {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  position: relative;
+}
+
+.btn-toolbar {
+  position: absolute;
+  left: 440px;
+}
+
+.lis {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  left: 520px;
+}
+
+.right {
+  float: right;
+}
+
+#str {
+  color: gold;
+  font-size: 22px;
+}
+
+#up {
+  color: #218838;
+  font-size: 22px;
+}
+
+#up:hover {
+  color: lightgreen;
+  transition: all 1s;
+}
+
+#down {
+  color: #c82333;
+  font-size: 22px;
+}
+
+#down:hover {
+  color: lightcoral;
+  transition: all 1s;
+}
+
+.trash-box:hover #trash {
+  display: inline-block;
+}
+
+#trash {
+  color: #c82333;
+  display: none;
+}
+
+#trash:hover {
+  color: red;
+  display: inline-block;
+  transition: all 0.5s;
+}
